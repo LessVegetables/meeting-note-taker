@@ -27,6 +27,7 @@ URL = "https://dion.vc/auth/login/guest?slug=vdamirov-ngu&eventId=efd7ac2a-099e-
 people = [
     {"id": 1,   "name":"Герман Даниил", "groupNumber":"24943"},
     {"id": 2,   "name":"Сотников Тихон", "groupNumber":"24943"},
+    {"id": 3,   "name":"Колосов Егор", "groupNumber":"24943"},
 ]
 
 # Your real Chrome profile folder on macOS
