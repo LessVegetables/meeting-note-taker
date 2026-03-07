@@ -2,12 +2,25 @@ import asyncio
 from pathlib import Path
 import random
 from shutil import copytree, ignore_patterns, rmtree
-# from playwright.sync_api import sync_playwright
 from playwright.async_api import async_playwright
+
+"""
+todo
+- create dion account for development/testing
+- add logging
+- turn people into a struct/class
+- integrate with tg bot
+- add sqlite (or json) to keep track of people
+- rewrite the logic a bit so that another person via the tg bot (so, not the "manager") can "join" the lecture
+- implement "ai manager" that automatically toggles the button 
+- add support for different groups (essentially by filtering the instances in def broadcast() by "if person.group == group")
+
+"""
 
 
 # URL = "https://dion.vc/event/vdamirov-ngu"
 URL = "https://dion.vc/auth/login/guest?slug=vdamirov-ngu&eventId=efd7ac2a-099e-40f7-97b4-376288385951&referrer=https%3A%2F%2Fdion.vc%2Fevent%2Fvdamirov-ngu"
+# URL = "devURL"
 
 # id, name, groupNumber
 people = [
