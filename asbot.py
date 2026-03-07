@@ -8,6 +8,7 @@ from playwright.async_api import async_playwright
 todo
 - create dion account for development/testing
 - add logging
+- add requirements.txt
 - turn people into a struct/class
 - integrate with tg bot
 - add sqlite (or json) to keep track of people
