@@ -28,6 +28,10 @@ people = [
     {"id": 1,   "name":"Герман Даниил", "groupNumber":"24943"},
     {"id": 2,   "name":"Сотников Тихон", "groupNumber":"24943"},
     {"id": 3,   "name":"Колосов Егор", "groupNumber":"24943"},
+    {"id": 4,   "name":"Алпатова Вероника", "groupNumber":"24943"},
+    {"id": 5,   "name":"Солодкин Федор", "groupNumber":"24943"},
+    {"id": 6,   "name":"Иванов Никита", "groupNumber":"24943"},
+    {"id": 7,   "name":"Сеньков Степан", "groupNumber":"24943"},
 ]
 
 # Your real Chrome profile folder on macOS
